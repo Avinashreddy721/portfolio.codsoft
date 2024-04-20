@@ -1,0 +1,136 @@
+@media (max-width:440px){
+    #desk-nav{
+        display: none;
+    }
+
+    #radio-nav{
+        display: flex;
+    }
+
+   .experience-details-container{
+        margin-top: -8rem;
+    }
+
+    #profile,.section-container{
+display: block;
+    }
+
+    .arrow{
+        display: none;
+    }
+
+    section,.section-container{
+        height: fit-content;
+    }
+    section{
+        margin: 0 5%;
+    }
+
+    .section_pic-container{
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .about-container{
+          margin-top: 165px;
+          gap: 3rem;
+          margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:440px) {
+    #profile{
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+
+    .about-container{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:500px) {
+   #contact,footer{
+    height: 18vh;
+    margin-top: 25px;
+    
+   }
+
+   #profile{
+    height: 71vh;
+    margin-bottom: 0px;
+   }
+
+   article{
+    font-size: 1rem;
+   }
+
+   footer nav{
+    /* height: fit-content;
+    margin-bottom: 3rem; */
+    
+    
+   }
+
+   .about-container,.container-info-upper-container,.btn-container{
+    flex-wrap: wrap;
+   }
+
+   .contact-info-container{
+    /* margin: 0; */
+   }
+
+   .contact-info-container p,.nav-links li a{
+    font-size: 1rem;
+   }
+
+   .experience-sub-title{
+font-size: 1.25rem;
+   }
+
+   .logo{
+    font-size: 1.5rem;
+   }
+
+   .nav-links{
+    /* flex-direction: column; */
+    gap: 1.5rem;
+    text-align: center;
+   }
+   .section_pic-container{
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+
+   }
+   .section_text_p2{
+    font-size: 1.25rem;
+   }
+
+   .title{
+    font-size: 2rem;
+   }
+   .text-container{
+    text-align: center;
+   }
+
+    .pic_container {
+        margin-left: -32px;
+        justify-content: center;
+        height: 45vh;
+    }
+   #About{
+    margin-top: 4rem;
+   }
+.about-pic{
+    margin-left: 17px;
+    /* justify-content: space-around; */
+    height: 38vh;
+    margin-top: 41px;
+}
+
+#snake{
+    margin-left: 20px;
+}
+
+}
